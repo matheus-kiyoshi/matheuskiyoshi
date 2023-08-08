@@ -22,10 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={twMerge(roboto.className, 'bg')}>
+      <body className={twMerge(roboto.className, 'bg overflow-x-hidden')}>
         <Providers>
           <Header />
-          <main>{children}</main>
+          {children}
         </Providers>
       </body>
     </html>
