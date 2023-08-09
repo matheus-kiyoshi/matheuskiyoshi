@@ -22,11 +22,7 @@ export default function About() {
         <Designation text="Atualmente, estudante de Desenvolvimento de Sistemas na ETEC" />
       </div>
       <div className="w-3/4 lg:w-[896px]">
-        <Description
-          text="A self-taught UI/UX designer, functioning in the industry for 3+ years
-      now. I make meaningful and delightful digital products that create an
-      equilibrium between user needs and business goals."
-        />
+        <Description text="Um desenvolvedor buscando aprimorar suas habilidades e aprender novas tecnologias. Meu objetivo com a programação é criar experiências digitais envolventes e memoráveis. Busco constantemente aprender e evoluir, atualmente sou autodidata na programação, se não sei, aprendo. Estudo Desenvolvimento de Sistemas na ETEC e tenho experiência em desenvolvimento web." />
       </div>
     </div>
   )

@@ -1,5 +1,7 @@
 import { Preahvihear } from 'next/font/google'
 import LetterAnimation from './LetterAnimation'
+import { twMerge } from 'tailwind-merge'
+import Link from 'next/link'
 
 const preahvihear = Preahvihear({
   subsets: ['latin'],
@@ -11,7 +13,12 @@ export default function Introduction() {
   const secondName = ['K', 'i', 'y', 'o', 's', 'h', 'i']
 
   return (
-    <div className={preahvihear.className}>
+    <div
+      className={twMerge(
+        preahvihear.className,
+        'flex flex-col gap-12 justify-center items-center',
+      )}
+    >
       <h1 className="text-3xl md:text-5xl text-center">
         Olá, eu sou <br />
         <strong className="text-violet-600 text-4xl md:text-6xl font-semibold underline underline-offset-8">
@@ -19,10 +26,18 @@ export default function Introduction() {
           <LetterAnimation text={secondName} />
         </strong>
       </h1>
-      <p className="text-lg md:text-xl  text-center mt-8">
-        Seja bem-vindo ao meu{' '}
-        <strong className="text-violet-800 font-semibold">portfólio</strong>
-      </p>
+      <div className="w-full flex justify-evenly items-center">
+        <button className="cursor-pointer text-white bg-violet-600 hover:bg-transparent border-2 border-violet-600 shadow-md hover:text-violet-600 text-sm focus:ring-4 focus:ring-violet-300 font-medium rounded-lg py-2.5 px-5 flex justify-center items-center transition-all duration-150">
+          Download CV
+        </button>
+        <Link
+          href="https://github.com/matheus-kiyoshi"
+          target="_blank"
+          className="cursor-pointer text-white bg-violet-600 hover:bg-transparent border-2 border-violet-600 shadow-md hover:text-violet-600 text-sm focus:ring-4 focus:ring-violet-300 font-medium rounded-lg py-2.5 px-5 flex justify-center items-center transition-all duration-150"
+        >
+          <p>GitHub</p>
+        </Link>
+      </div>
     </div>
   )
 }

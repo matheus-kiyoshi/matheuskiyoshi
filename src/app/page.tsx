@@ -8,7 +8,7 @@ import card2 from '@/../public/card2.png'
 
 export default function Home() {
   return (
-    <main className="w-screen pb-40 top-32 md:top-20 xl:top-12 2xl:top-10 relative flex flex-col justify-center items-center overflow-x-hidden">
+    <main className="w-screen md:top-20 xl:top-12 2xl:top-10 relative flex flex-col justify-center items-center overflow-x-hidden">
       <article className="w-screen h-screen flex justify-center items-center overflow-x-hidden">
         <Cover />
       </article>
@@ -40,7 +40,7 @@ export default function Home() {
               siteLink="https://game-room-three.vercel.app"
             />
           </article>
-          <article className="w-screen flex justify-center items-center">
+          <article className="w-screen flex justify-center items-center mb-20">
             <Contacts />
           </article>
         </div>

@@ -4,6 +4,7 @@ import Providers from './providers'
 import { Roboto } from 'next/font/google'
 import { twMerge } from 'tailwind-merge'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 const roboto = Roboto({
   weight: '400',
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
