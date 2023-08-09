@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-screen h-28 bg__header dark:bg-red text-white fixed top-0 block z-20">
+      <header className="w-screen h-28 bg__header dark:bg-red text-white fixed top-0 block z-20 overflow-x-hidden">
         <div className="w-full h-full flex items-center justify-evenly z-20">
           <ThemeSwitcher />
           <HamburguerMenu onClick={handleClick} />
