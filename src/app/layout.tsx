@@ -13,7 +13,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: 'Matheus Kiyoshi Ferreira',
-  description: 'Seja bem-vindo!',
+  description: 'Seja bem-vindo ao meu portfólio de desenvolvedor!',
 }
 
 export default function RootLayout({

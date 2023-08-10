@@ -37,7 +37,7 @@ export default function Home() {
               FirstProject
               imageURL={card1}
               title="Game Room"
-              description="Plataforma de minigames e jogos, desenvolvida com ReactJS, Typescript e TailwindCSS, feita para testar conhecimentos em novas tecnologias, site responsivo com tailwind e com uso de iFrames no react e componentes com Styled-Components, além da lógica feita no jogo da velha."
+              description="Plataforma de minigames e jogos, desenvolvida com ReactJS, Typescript e TailwindCSS, feita para testar conhecimentos em novas tecnologias, site responsivo com tailwind e componentes com Styled-Components, além da lógica feita no jogo da velha."
               githubLink="https://github.com/matheus-kiyoshi/game-room"
               siteLink="https://game-room-three.vercel.app"
               reverse

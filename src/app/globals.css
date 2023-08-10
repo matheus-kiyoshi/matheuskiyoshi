@@ -27,3 +27,27 @@ html.light {
     @apply bg-zinc-200 text-zinc-900;
   }
 }
+
+/* scrollbar */
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+  scrollbar-color: rgb(124 58 237) transparent;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(124 58 237);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(109 40 217);
+}

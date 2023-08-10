@@ -1,5 +1,5 @@
 import '@/app/globals.css'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 export default function Topic({ name, id }: { name: string; id: string }) {
   return (
