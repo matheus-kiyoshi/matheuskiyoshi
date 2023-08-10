@@ -32,8 +32,14 @@ export default function Contacts() {
           </Link>
         </div>
         <div className="flex justify-between items-center gap-2">
-          <RiWhatsappFill className="h-8 w-8 lg:w-10 lg:h-10 text-green-600" />
-          <p>+55 (11) 97793-6452</p>
+          <Link
+            href="https://wa.me/5511977936452"
+            target="_blank"
+            className="cursor-pointer hover:text-green-500 flex justify-between items-center gap-2 transition-all duration-150"
+          >
+            <RiWhatsappFill className="h-8 w-8 lg:w-10 lg:h-10 text-green-600" />
+            <p>+55 (11) 97793-6452</p>
+          </Link>
         </div>
       </div>
     </div>

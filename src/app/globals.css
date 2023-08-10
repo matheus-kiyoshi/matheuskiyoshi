@@ -6,6 +6,10 @@
   .nav__li {
     @apply hover:underline underline-offset-4 hover:text-violet-600 transition-all duration-300 ease-in cursor-pointer;
   }
+
+  .nav__li .active {
+    @apply text-violet-600 underline-offset-4 cursor-pointer underline;
+  }
 }
 
 html.dark {

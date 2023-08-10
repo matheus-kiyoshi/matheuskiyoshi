@@ -27,7 +27,7 @@ export default function Introduction() {
         </strong>
       </h1>
       <div className="w-full flex justify-evenly items-center">
-        <button className="cursor-pointer text-white bg-violet-600 hover:bg-transparent border-2 border-violet-600 shadow-md hover:text-violet-600 text-sm focus:ring-4 focus:ring-violet-300 font-medium rounded-lg py-2.5 px-5 flex justify-center items-center transition-all duration-150">
+        <button className="cursor-pointer text-white bg-violet-600 hover:bg-violet-700 border-2 border-violet-600 shadow-md hover:text-zinc-200 hover:border-violet-700 text-sm focus:ring-4 focus:ring-violet-300 font-medium rounded-lg py-2.5 px-5 flex justify-center items-center">
           Download CV
         </button>
         <Link

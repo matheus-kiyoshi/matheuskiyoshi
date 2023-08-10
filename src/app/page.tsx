@@ -8,19 +8,31 @@ import card2 from '@/../public/card2.png'
 
 export default function Home() {
   return (
-    <main className="w-screen md:top-20 xl:top-12 2xl:top-10 relative flex flex-col justify-center items-center overflow-x-hidden">
-      <article className="w-screen h-screen flex justify-center items-center overflow-x-hidden">
+    <main className="w-screen top-20 md:top-20 xl:top-12 2xl:top-10 relative flex flex-col justify-center items-center overflow-x-hidden">
+      <article
+        id="home"
+        className="w-screen h-screen flex justify-center items-center overflow-x-hidden"
+      >
         <Cover />
       </article>
       <div className="flex flex-col justify-center items-center gap-56 sm:gap-40 xl:gap-32">
-        <article className="w-screen flex justify-center items-center">
+        <article
+          id="about"
+          className="w-screen flex justify-center items-center"
+        >
           <About />
         </article>
         <div className="flex flex-col justify-center items-center gap-56 sm:gap-28 lg:gap-32">
-          <article className="w-3/4 h-96 flex flex-col gap-5 justify-evenly items-center z-10">
+          <article
+            id="technologies"
+            className="w-3/4 h-96 flex flex-col gap-5 justify-evenly items-center z-10"
+          >
             <Technologies />
           </article>
-          <article className="w-screen flex flex-col justify-center items-center gap-12">
+          <article
+            id="projects"
+            className="w-screen flex flex-col justify-center items-center gap-12"
+          >
             <Projects
               FirstProject
               imageURL={card1}
@@ -40,7 +52,10 @@ export default function Home() {
               siteLink="https://game-room-three.vercel.app"
             />
           </article>
-          <article className="w-screen flex justify-center items-center mb-20">
+          <article
+            id="contacts"
+            className="w-screen flex justify-center items-center mb-20"
+          >
             <Contacts />
           </article>
         </div>

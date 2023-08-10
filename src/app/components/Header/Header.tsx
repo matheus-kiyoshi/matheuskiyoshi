@@ -21,11 +21,11 @@ export default function Header() {
           <div className="hidden md:block z-20">
             <Topics
               topics={[
-                'Home',
-                'Sobre Mim',
-                'Tecnologias',
-                'Projetos',
-                'Contato',
+                { name: 'Home', id: 'home' },
+                { name: 'Sobre Mim', id: 'about' },
+                { name: 'Tecnologias', id: 'technologies' },
+                { name: 'Projetos', id: 'projects' },
+                { name: 'Contato', id: 'contacts' },
               ]}
             />
           </div>
@@ -34,7 +34,13 @@ export default function Header() {
       {isOpen && (
         <nav className="w-full h-screen bg__header py-6 fixed z-20 top-28 block md:hidden">
           <Topics
-            topics={['Home', 'Sobre Mim', 'Tecnologias', 'Projetos', 'Contato']}
+            topics={[
+              { name: 'Home', id: 'home' },
+              { name: 'Sobre Mim', id: 'about' },
+              { name: 'Tecnologias', id: 'technologies' },
+              { name: 'Projetos', id: 'projects' },
+              { name: 'Contato', id: 'contacts' },
+            ]}
           />
         </nav>
       )}
