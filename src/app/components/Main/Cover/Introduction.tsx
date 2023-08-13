@@ -1,5 +1,4 @@
 import { Preahvihear } from 'next/font/google'
-import LetterAnimation from './LetterAnimation'
 import { twMerge } from 'tailwind-merge'
 import Link from 'next/link'
 import { CVButton } from './CVButton'
@@ -10,9 +9,6 @@ const preahvihear = Preahvihear({
 })
 
 export default function Introduction() {
-  const firstName = ['M', 'a', 't', 'h', 'e', 'u', 's']
-  const secondName = ['K', 'i', 'y', 'o', 's', 'h', 'i']
-
   return (
     <div
       className={twMerge(
@@ -23,8 +19,7 @@ export default function Introduction() {
       <h1 className="text-3xl md:text-5xl text-center">
         Olá, eu sou <br />
         <strong className="text-violet-600 text-4xl md:text-6xl font-semibold underline underline-offset-8">
-          <LetterAnimation text={firstName} />{' '}
-          <LetterAnimation text={secondName} />
+          Matheus Kiyoshi
         </strong>
       </h1>
       <div className="w-full flex justify-evenly items-center">
