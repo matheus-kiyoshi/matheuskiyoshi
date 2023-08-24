@@ -36,10 +36,10 @@ export default function Home() {
             <Projects
               FirstProject
               imageURL={card1}
-              title="Game Room"
-              description="Plataforma de minigames e jogos, desenvolvida com ReactJS, Typescript e TailwindCSS, feita para testar conhecimentos em novas tecnologias, site responsivo com tailwind e componentes com Styled-Components, além da lógica feita no jogo da velha."
-              githubLink="https://github.com/matheus-kiyoshi/game-room"
-              siteLink="https://game-room-three.vercel.app"
+              title="Budgets"
+              description="Site de gerenciamento de custos e planejamentos, você pode realizar orçamentos, adicionar, editar e deletar projetos e serviços."
+              githubLink="https://github.com/matheus-kiyoshi/budgets"
+              siteLink="https://budgetsmk.vercel.app"
               reverse
             />
           </article>
@@ -48,8 +48,8 @@ export default function Home() {
               imageURL={card2}
               title="Conversor de Moedas"
               description="Site criado com ReactJS, Typescript e TailwindCSS, onde o usuário pode realizar a conversão de diversos valores, como o dólar, real, euro, libra e etc. Conta com Dark mode e modal em caso de erro na conversão."
-              githubLink="https://github.com/matheus-kiyoshi/game-room"
-              siteLink="https://game-room-three.vercel.app"
+              githubLink="https://github.com/matheus-kiyoshi/exchange-api-reactjs"
+              siteLink="https://exchange-api-reactjs.vercel.app"
             />
           </article>
           <article
