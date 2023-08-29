@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import { FaMoon, FaSun } from 'react-icons/fa'
+// TODO: change css for styled components
 import styles from './ThemeSwitcher.module.css'
 import { twMerge } from 'tailwind-merge'
 
@@ -33,23 +34,19 @@ const ThemeSwitcher = () => {
           'w-16 h-16 rounded-full flex justify-center align-center hover:opacity-80',
           styles.btn,
           theme === 'dark' && styles.shadow__dark,
-          theme === 'system' && styles.shadow__dark,
           theme === 'light' && styles.shadow__light,
         )}
         aria-label="Toggle dark mode"
         onClick={() => {
-          if (theme === 'light') {
-            setTheme('dark')
-          } else {
+          if (theme === 'dark') {
             setTheme('light')
+          } else {
+            setTheme('dark')
           }
           changeTheme()
         }}
       >
         <div className="flex justify-center items-center w-full h-full">
-          {theme === 'system' && (
-            <FaSun className={twMerge('text-white text-4xl', change)} />
-          )}
           {theme === 'dark' && (
             <FaSun className={twMerge('text-white text-4xl', change)} />
           )}

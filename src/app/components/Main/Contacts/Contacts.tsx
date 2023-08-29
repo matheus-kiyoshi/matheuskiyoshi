@@ -14,7 +14,7 @@ export default function Contacts() {
   return (
     <div className="w-full h-full flex flex-col gap-12 justify-center items-center">
       <h1 className={twMerge(preahvihear.className, 'text-3xl lg:text-5xl')}>
-        Contacts
+        Contato
       </h1>
       <div className="flex flex-col lg:flex-row justify-evenly items-center gap-8 w-full">
         <div className="flex justify-between items-center gap-2">
