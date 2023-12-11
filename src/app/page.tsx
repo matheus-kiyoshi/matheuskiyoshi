@@ -4,7 +4,7 @@ import Cover from './components/Main/Cover/Cover'
 import Projects from './components/Main/Projects/Projects'
 import Technologies from './components/Main/Technologies/Technologies'
 import card1 from '@/../public/card1.png'
-import card2 from '@/../public/card2.png'
+import card3 from '@/../public/card3.png'
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-56 sm:gap-28 lg:gap-32">
           <article
             id="technologies"
-            className="w-3/4 h-96 flex flex-col gap-5 justify-evenly items-center z-10"
+            className="w-3/4 sm:h-96 flex flex-col gap-5 justify-evenly items-center z-10"
           >
             <Technologies />
           </article>
@@ -35,21 +35,21 @@ export default function Home() {
           >
             <Projects
               FirstProject
-              imageURL={card1}
-              title="Budgets"
-              description="Site de gerenciamento de custos e planejamentos, você pode realizar orçamentos, adicionar, editar e deletar projetos e serviços."
-              githubLink="https://github.com/matheus-kiyoshi/budgets"
-              siteLink="https://budgetsmk.vercel.app"
+              imageURL={card3}
+              title="Incognito Social"
+              description="Rede social anônima para compartilhar suas experiências, posts, anúncios e muito mais. Projeto fullstack feito usando Node.js, React e MongoDB."
+              githubLink="https://github.com/matheus-kiyoshi/incognito-social"
+              siteLink="https://incognito-social-media.vercel.app"
               reverse
             />
           </article>
           <article className="w-screen flex flex-col justify-center items-center gap-12">
             <Projects
-              imageURL={card2}
-              title="Conversor de Moedas"
-              description="Site criado com ReactJS, Typescript e TailwindCSS, onde o usuário pode realizar a conversão de diversos valores, como o dólar, real, euro, libra e etc. Conta com Dark mode e modal em caso de erro na conversão."
-              githubLink="https://github.com/matheus-kiyoshi/exchange-api-reactjs"
-              siteLink="https://exchange-api-reactjs.vercel.app"
+              imageURL={card1}
+              title="Budgets"
+              description="Site de gerenciamento de custos e planejamentos, você pode realizar orçamentos, adicionar, editar e deletar projetos e serviços."
+              githubLink="https://github.com/matheus-kiyoshi/budgets"
+              siteLink="https://budgetsmk.vercel.app"
             />
           </article>
           <article

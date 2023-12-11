@@ -2,7 +2,7 @@
 
 export const CVButton = () => {
   const handleClick = () => {
-    console.log('não disponível')
+    alert('Em breve')
   }
 
   return (

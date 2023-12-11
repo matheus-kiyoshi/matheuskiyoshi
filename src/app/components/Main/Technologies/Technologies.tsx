@@ -2,15 +2,21 @@ import {
   SiCss3,
   SiHtml5,
   SiJavascript,
+  SiMongodb,
+  SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiReact,
+  SiSpring,
   SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
 import { twMerge } from 'tailwind-merge'
 import { IconRoot } from './IconRoot'
+import { FaJava } from 'react-icons/fa'
+import { IoPrism } from 'react-icons/io5'
 
 export default function Technologies() {
   const iconPatternStyle =
@@ -63,6 +69,36 @@ export default function Technologies() {
         <IconRoot name="Node.js">
           <SiNodedotjs
             className={twMerge(iconPatternStyle, 'hover:text-green-400')}
+          />
+        </IconRoot>
+        <IconRoot name="NestJS">
+          <SiNestjs
+            className={twMerge(iconPatternStyle, 'hover:text-red-500')}
+          />
+        </IconRoot>
+        <IconRoot name="Java">
+          <FaJava
+            className={twMerge(iconPatternStyle, 'hover:text-blue-400')}
+          />
+        </IconRoot>
+        <IconRoot name="Java Spring">
+          <SiSpring
+            className={twMerge(iconPatternStyle, 'hover:text-green-500')}
+          />
+        </IconRoot>
+        <IconRoot name="PostgreSQL">
+          <SiPostgresql
+            className={twMerge(iconPatternStyle, 'hover:text-blue-600')}
+          />
+        </IconRoot>
+        <IconRoot name="MongoDB">
+          <SiMongodb
+            className={twMerge(iconPatternStyle, 'hover:text-green-500')}
+          />
+        </IconRoot>
+        <IconRoot name="Prisma ORM">
+          <IoPrism
+            className={twMerge(iconPatternStyle, 'hover:text-green-500')}
           />
         </IconRoot>
       </div>
