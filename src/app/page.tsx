@@ -4,7 +4,7 @@ import Cover from './components/Main/Cover/Cover'
 import Projects from './components/Main/Projects/Projects'
 import Technologies from './components/Main/Technologies/Technologies'
 import card1 from '@/../public/card1.png'
-import card3 from '@/../public/card3.png'
+import card3 from '@/../public/card4.png'
 
 export default function Home() {
   return (
