@@ -19,7 +19,7 @@ export default function About() {
     >
       <div className="w-3/4 lg:w-[896px]">
         <Title />
-        <Designation text="Atualmente, estudando Análise e Desenvolvimento de Sistemas" />
+        <Designation text="Atualmente, estudando Desenvolvimento de Sistemas" />
       </div>
       <div className="w-3/4 lg:w-[896px]">
         <Description text="Um desenvolvedor buscando aprimorar suas habilidades e aprender novas tecnologias. Meu objetivo com a programação é criar experiências digitais envolventes e memoráveis. Busco constantemente aprender e evoluir, atualmente sou autodidata na programação, se não sei, aprendo. Tenho experiência em desenvolvimento web com a stack MERN." />
